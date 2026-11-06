@@ -49,3 +49,47 @@ The figure below shows the distribution of LD-linked variant counts across the 8
 LD neighborhood sizes varied substantially across GWAS signals. The median sentinel SNP was associated with 13 LD-linked variants, indicating that most GWAS signals expanded to relatively small sets of correlated variants. At the 95th percentile, a sentinel SNP had 107 LD-linked variants, meaning approximately 95% of sentinel SNPs had 107 or fewer linked variants, while the remaining 5% had larger LD neighborhoods. Similarly, the 99th percentile was 227 variants, indicating that approximately 1% of sentinel SNPs had more than 227 linked variants.
 
 The largest LD neighborhood contained 2,716 variants linked to a single sentinel SNP. This variation illustrates that LD expansion can produce markedly different numbers of candidate variants across GWAS loci, with some association signals spanning substantially larger sets of correlated variants than others.
+
+Output Files
+
+The PLINK results are available in results/plink_output/.
+
+File
+
+Description
+
+LDproxy_1000G_EUR_r2ge0.8_win1000kb.allchr.ld
+
+Pairwise LD results containing SNP pairs and r² values
+
+proxies_r2ge0.8.txt
+
+Unique LD proxy variants
+
+sentinels_plus_proxies_r2ge0.8.txt
+
+Combined set of matched sentinel and proxy variants
+
+matched_sentinels_in_reference.txt
+
+Sentinel variants present in the EUR reference
+
+missing_sentinels_not_in_reference.txt
+
+Sentinel variants absent from the EUR reference
+
+counts.txt
+
+Summary of variant counts
+
+warnings.txt
+
+Processing warnings
+
+References
+
+Shrine, N. et al. (2023). Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk. Nature Genetics. https://doi.org/10.1038/s41588-023-01314-0
+
+The 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. Nature, 526, 68–74. https://doi.org/10.1038/nature15393
+
+Chang, C. C. et al. (2015). Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience, 4, 7. https://doi.org/10.1186/s13742-015-0047-8
