@@ -46,4 +46,6 @@ The figure below shows the distribution of LD-linked variant counts across the 8
 
 ![LD expansion of lung-function-associated sentinel SNPs](figures/ld_proxy_expansion.png)
 
-LD neighborhood sizes varied substantially across GWAS signals. The median sentinel SNP was associated with 13 LD-linked variants, indicating that most GWAS signals expanded to relatively small sets of correlated variants. At the 95th percentile, a sentinel SNP had 107 LD-linked variants, meaning approximately 95% of sentinel SNPs had
+LD neighborhood sizes varied substantially across GWAS signals. The median sentinel SNP was associated with 13 LD-linked variants, indicating that most GWAS signals expanded to relatively small sets of correlated variants. At the 95th percentile, a sentinel SNP had 107 LD-linked variants, meaning approximately 95% of sentinel SNPs had 107 or fewer linked variants, while the remaining 5% had larger LD neighborhoods. Similarly, the 99th percentile was 227 variants, indicating that approximately 1% of sentinel SNPs had more than 227 linked variants.
+
+The largest LD neighborhood contained 2,716 variants linked to a single sentinel SNP. This variation illustrates that LD expansion can produce markedly different numbers of candidate variants across GWAS loci, with some association signals spanning substantially larger sets of correlated variants than others.
