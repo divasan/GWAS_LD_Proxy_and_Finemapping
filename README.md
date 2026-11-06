@@ -50,46 +50,22 @@ LD neighborhood sizes varied substantially across GWAS signals. The median senti
 
 The largest LD neighborhood contained 2,716 variants linked to a single sentinel SNP. This variation illustrates that LD expansion can produce markedly different numbers of candidate variants across GWAS loci, with some association signals spanning substantially larger sets of correlated variants than others.
 
-Output Files
+### Output Files
 
-The PLINK results are available in results/plink_output/.
+The PLINK results are available in `results/plink_output/`.
 
-File
+| File | Description |
+|---|---|
+| `LDproxy_1000G_EUR_r2ge0.8_win1000kb.allchr.ld` | Pairwise LD results containing SNP pairs and r² values |
+| `proxies_r2ge0.8.txt` | Unique LD proxy variants |
+| `sentinels_plus_proxies_r2ge0.8.txt` | Combined set of matched sentinel and proxy variants |
+| `matched_sentinels_in_reference.txt` | Sentinel variants present in the EUR reference |
+| `missing_sentinels_not_in_reference.txt` | Sentinel variants absent from the EUR reference |
+| `counts.txt` | Summary of variant counts |
+| `warnings.txt` | Processing warnings |
 
-Description
+## References
 
-LDproxy_1000G_EUR_r2ge0.8_win1000kb.allchr.ld
-
-Pairwise LD results containing SNP pairs and r² values
-
-proxies_r2ge0.8.txt
-
-Unique LD proxy variants
-
-sentinels_plus_proxies_r2ge0.8.txt
-
-Combined set of matched sentinel and proxy variants
-
-matched_sentinels_in_reference.txt
-
-Sentinel variants present in the EUR reference
-
-missing_sentinels_not_in_reference.txt
-
-Sentinel variants absent from the EUR reference
-
-counts.txt
-
-Summary of variant counts
-
-warnings.txt
-
-Processing warnings
-
-References
-
-Shrine, N. et al. (2023). Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk. Nature Genetics. https://doi.org/10.1038/s41588-023-01314-0
-
-The 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. Nature, 526, 68–74. https://doi.org/10.1038/nature15393
-
-Chang, C. C. et al. (2015). Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience, 4, 7. https://doi.org/10.1186/s13742-015-0047-8
+1. Shrine, N. et al. (2023). Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk. *Nature Genetics*. https://doi.org/10.1038/s41588-023-01314-0
+2. The 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. *Nature*, 526, 68–74. https://doi.org/10.1038/nature15393
+3. Chang, C. C. et al. (2015). Second-generation PLINK: rising to the challenge of larger and richer datasets. *GigaScience*, 4, 7. https://doi.org/10.1186/s13742-015-0047-8
