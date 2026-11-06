@@ -1,0 +1,5 @@
+Unique input IDs: 1020
+Matched sentinel IDs: 918
+Missing sentinel IDs: 1020
+Unique proxies r2>=0.8: 27332
+Union (sentinels+proxies): 27332
