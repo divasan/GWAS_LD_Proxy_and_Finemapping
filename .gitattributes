@@ -1,0 +1,2 @@
+*.ld linguist-generated=true
+*.sbatch linguist-language=Shell
